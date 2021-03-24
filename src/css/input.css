@@ -1,0 +1,60 @@
+:root{
+    --secondary:#F9AA33;
+    --primary:#344955;
+    --dark:#232F34;
+}
+.main-div{
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    
+}
+.input-box{
+    border: 1px solid gray;
+    background-color:#FFFFFF;
+    padding: 1rem;
+    width: 80%;
+}
+.text-field{
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    width: fit-content;
+    
+}
+.input-t{
+    padding: 0.5rem;
+    width: 200px;
+    max-width: 300px;
+}
+.btn-input{
+    color: #f2f6f8;
+    border: 1px solid black;
+    width: 30%;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #232F34;
+}
+.password{
+    margin-top: 5px;
+    border: 1px solid black;
+    display: flex;
+    width: fit-content;
+}
+.input-p{
+    padding: 0.5rem;
+    width: 200px;
+    max-width: 300px;
+}
+.btn-submit{
+    color: #f2f6f8;
+    border: 1px solid black;
+    width: 30%;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #232F34;
+}
+@media only screen and (max-width:600px){
+    .images{
+        width: 100%;
+    }
+}

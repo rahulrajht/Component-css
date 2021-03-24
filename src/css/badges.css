@@ -1,0 +1,97 @@
+.main-div{
+    padding: 0.5rem 1rem;
+}
+.avatar{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border: 1px solid gray;
+    background-color:#f3edf3;
+    padding: 2rem;
+}
+.avt-online{
+    position: relative;
+    display: inline-block;
+}
+.avt-online>.avt-img-100{      
+    border-radius: 50%;
+    border: 2px solid var(--primary); 
+    width: 100px;
+    height: 100px; 
+}
+
+.avt-online>.online{
+    position: absolute;
+    width: 15px;
+    background-color: green;
+    height: 15px;
+    border-radius: 50%;
+    right: 15px;
+    top: 0px;
+    
+}
+
+.avt-sq-online{
+    position: relative;
+    display: inline-block;
+}
+.avt-sq-online>.avt-sq-100{      
+    border: 2px solid var(--primary); 
+    width: 100px;
+    height: 100px; 
+}
+
+.avt-sq-online>.online{
+    position: absolute;
+    width: 15px;
+    background-color: green;
+    height: 15px;
+    border-radius: 50%;
+    right: -8px;
+    top: -5px;
+    
+}
+.avt-edit{
+    position: relative;
+    display: inline-block;
+}
+.avt-edit>.avt-img-100{      
+    border-radius: 50%;
+    border: 2px solid var(--primary); 
+    width: 100px;
+    height: 100px; 
+}
+
+.avt-edit>.edit{
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;    
+    cursor: pointer;
+}
+
+.main-div>.code{   
+    display: inline-block;
+    color: #141414;
+    border: 1px solid gray;
+    padding: 2rem;
+    width: 80%;
+}
+@media only screen and (max-width:480px){
+  
+   
+    .main-div>.code{
+        width: 100%;
+    }
+    .avatar{
+        width: 100%;
+        border: 1px solid gray;
+        background-color:#f3edf3;
+        padding: 2rem;
+    }
+}
