@@ -17,6 +17,15 @@
   justify-content: space-between;
   width: 100%;
 }
+.label {
+  margin: 0 0px 0 0;
+  line-height: 50px;
+  display: none;
+  width: 26px;
+}
+#toogle {
+  display: none;
+}
 .navbar > .left-item {
   text-align: center;
   display: flex;
@@ -61,4 +70,29 @@
 .navbar > .right-item > li > span:hover {
   background-color: #fff;
   color: #232f34;
+}
+
+@media screen and (max-width: 910px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar > .left-item {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar > .right-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #toogle:checked ~ ul {
+    display: none;
+  }
 }
