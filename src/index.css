@@ -16,23 +16,14 @@ body {
   margin: 0;
   padding: 0;
   color: rgb(245, 238, 238);
-  box-sizing: border-box;
 }
-.App {
-  width: 100%;
-  text-align: center;
-  /* display: grid;
-  grid-template-areas: "nav nav nav "
-                        "side main main"
-                        "side main main"; */
-}
+
 .nav-bar {
   display: flex;
   padding: 0rem 1rem;
   background: #232f34;
   color: #fff;
   text-align: center;
-  grid-area: nav;
   font-weight: lighter;
   font-size: 1.2rem;
   justify-content: space-between;
@@ -55,18 +46,22 @@ body {
   display: flex;
   list-style: none;
   width: 200px;
+  align-items: center;
   justify-content: space-between;
 }
 .nav-bar > .right {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-around;
   width: 250px;
 }
 .nav-bar > .right > ul {
   display: flex;
   justify-content: space-around;
-
+  width: 100%;
   padding-right: 1rem;
   text-decoration: none;
-  cursor: none;
 }
 .nav-bar > .right > ul > li {
   list-style: none;
@@ -89,8 +84,6 @@ section {
   display: flex;
 }
 .side-bar {
-  grid-area: side;
-  /* margin: 0px 0px 0 5px; */
   background-color: #344955;
   text-align: left;
   padding: 2rem 0.5rem 0.5rem 2rem;
@@ -116,7 +109,6 @@ section {
   transition: all 0.6s ease-out;
   background-color: var(--secondary);
   color: #0d0d0e;
-  /* transform: scale(1.1); */
 }
 
 .main {
@@ -129,18 +121,20 @@ section {
 }
 @media only screen and (max-width: 900px) {
   .side-bar {
-    width: 30%;
+    width: 25%;
   }
   .main {
-    width: 70%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .main {
-    width: 100%;
+    width: 75%;
   }
 }
 @media only screen and (max-width: 600px) {
+  .nav-bar > .left {
+    margin-left: 1rem;
+    width: 170px;
+  }
+  .nav-bar > .right > ul {
+    padding-right: 0.5rem;
+  }
   section {
     flex-direction: column;
   }
@@ -152,7 +146,7 @@ section {
     width: 100%;
     height: max-content;
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
   }
   .side-bar > ul {
     display: flex;
