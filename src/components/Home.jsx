@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import "../css/home.css";
 function Home() {
   return (
-    <div className="bg-home">
+    <div className="parent">
+     <div className="bg-home">
       <div className="main-ct">
         <h1 className="title"> Flick CSS </h1>
         <p className="para1">
@@ -53,6 +54,7 @@ function Home() {
           </ul>
         </nav>
       </footer>
+    </div>
     </div>
   );
 }
