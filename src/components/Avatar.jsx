@@ -21,7 +21,7 @@ function Avatar() {
             <div className="cod">
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=13px&lh=118%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%2520%253D%2520%2522avt-img-150%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-img-100%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-img-50%2522%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-img-25%2522%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                width = "100%" height="205px" border="0"  overflow ="scroll" 
+                width = "100%" height="205px" border="0"  overflow ="scroll" frameborder="0"
                 />
               
             </div>
@@ -37,7 +37,7 @@ function Avatar() {
             <div className="cod">
                 <Iframe
                 url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=13px&lh=118%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%2520%253D%2520%2522avt-sq-150%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-sq-100%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-sq-50%2522%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%2520%253D%2520%2522avt-sq-25%2522%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252F2OCOMVx%2522%2520%2520alt%253D%2522img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
-                width=" 100%" height="205px" border="0" transform="scale(1)" overflow="hidden"
+                width=" 100%" height="205px" border="0" transform="scale(1)" overflow="hidden" frameborder="0"
                 />
               
               
