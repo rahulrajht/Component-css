@@ -29,10 +29,10 @@
 }
 .main-ct {
   display: grid;
-  width: 100%;
+  width: 80%;
   padding: 2rem;
   margin-inline-start: auto;
-  margin-left:5rem;
+  margin-left:8rem;
 }
 .main-ct > .btn-p {
   padding: 0.75rem 1rem;
@@ -102,6 +102,7 @@ footer > nav > ul > a:hover {
     display: grid;
     width: 90%;
     margin-left: 2rem;
+    margin-inline-start:auto;
   }
 }
 @media only screen and (max-width: 720px) {
