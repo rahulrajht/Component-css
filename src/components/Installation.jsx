@@ -6,7 +6,7 @@ function Installation() {
   return (
     <div className="main-div ">
       <div className="ct">
-        <h1>Getting Started</h1>
+        <h1>Installation</h1>
         <h4>CSS Style</h4>
         <p className="para">
           To get the styles of the components, add the following line of code in
