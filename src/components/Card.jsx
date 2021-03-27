@@ -41,18 +41,18 @@ function Card() {
                 <div>
                     <Iframe
                         url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520Primary%2520Card%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-p%2522%2520%253E%250A%2520%2520%2520%253Cimg%2520class%2520%253D%2520%2522img%2522%2520src%2520%253D%2520%2522%2520%2522%2520alt%2520%253D%2520%2522image%2522%2520%252F%253E%250A%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%2520reprehenderit%2520%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                        width=" 100%" height="330px" border="0" transform="scale(1)" overflow="hidden"
+                        width=" 100%" height="330px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"
                     />
 
 
                     <Iframe
                         url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520White%2520background%2520Card%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-w%2522%2520%253E%250A%2520%2520%2520%253Cimg%2520class%2520%253D%2520%2522img%2522%2520src%2520%253D%2520%2522%2522%2520alt%2520%253D%2520%2522image%2522%2520%252F%253E%250A%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                        width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden"
+                        width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"
                     />
 
                     <Iframe
                         url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520card%2520with%2520close%2520icon%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-dismiss%2522%2520%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%2522card-p%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2520%2522img%2522%2520src%2520%253D%2520%2522%2522%2520alt%2520%253D%2520%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%2520%253D%2520%2522close%2522%2520%253E%2520X%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
-                        width=" 100%" height="410px" border="0" transform="scale(1)" overflow="hidden"
+                        width=" 100%" height="410px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"
                     />
 
                 </div>
@@ -78,13 +78,13 @@ function Card() {
             <div className="cod">
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520simple%2520card%2520%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-simple%2522%2520%253E%250A%2520%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cem%253E%252008%2520March%25202021%2520%253C%252Fem%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Subscribe%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="390px" border="0" transform="scale(1)" overflow="hidden"
+                    width=" 100%" height="390px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"
 
                 />
 
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520simple%2520white%2520background%2520card%2520%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-w%2522%2520%253E%250A%2520%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cem%253E%252008%2520March%25202021%2520%253C%252Fem%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="390px" border="0" transform="scale(1)" overflow="hidden"
+                    width=" 100%" height="390px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"
 
                 />
 
@@ -107,12 +107,12 @@ function Card() {
             <div className="cod">
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520card%2520with%2520shadow%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-p-shadow%2522%2520%253E%250A%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2520%2522img%2522%2520src%2520%253D%2520%2522%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch2%253EHeading%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden" />
+                    width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0" />
 
 
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520card%2520with%2520shadow%2520white%2520background%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-w-shadow%2522%2520%253E%250A%2520%2520%2520%2520%253Ch2%253E%2520Heading%2520%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cspan%253E%2520%253Cem%253E%252008%2520March%25202021%2520%253C%252Fem%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Minima%250A%2520%2520%2520%2520%2520%2520%2520%2520reprehenderit%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520Click%2520Me%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden" />
+                    width=" 100%" height="350px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0"  />
 
 
 
@@ -133,12 +133,12 @@ function Card() {
             <div className="cod">
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520card%2520with%2520overlay%2520text%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-text%2522%2520%253E%250A%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2522img%2522%2520src%2520%253D%2520%2522%2522%2520alt%2520%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Perferendis%250A%2520%2520%2520%2520%2520%2520%2520repellendus%2520blanditiis%2520reiciendis%2520labore%2520suscipit%2520aliquid%253F%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%2520%253D%2520%2522btn-p%2522%2520%253E%2520See%2520More%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="330px" border="0" transform="scale(1)" overflow="hidden" />
+                    width=" 100%" height="330px" border="0" transform="scale(1)" overflow="hidden" frameBorder="0" />
 
 
                 <Iframe
                     url="https://carbon.now.sh/embed?bg=rgba%2852%2C73%2C85%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=27px&ph=22px&ln=false&fl=1&fm=Hack&fs=14px&lh=144%25&si=false&es=2x&wm=false&code=%252F*%2520This%2520is%2520a%2520card%2520with%2520overlay%2520text%2520*%252F%250A%253Cdiv%2520class%2520%253D%2520%2522card-text%2522%2520%253E%250A%2520%2520%2520%2520%253Cimg%2520class%2520%253D%2522img%2522%2520src%2520%253D%2520%2522%2522%2520alt%2520%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Perferendis%250A%2520%2520%2520%2520%2520%2520%2520repellendus%2520blanditiis%2520reiciendis%2520labore%2520suscipit%2520aliquid%253F%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-                    width=" 100%" height="310px" border="0" transform="scale(1)" overflow="hidden" />
+                    width=" 100%" height="310px" border="0" transform="scale(1)" overflow="hidden"  frameBorder="0" />
             </div>
         </div>
     )
