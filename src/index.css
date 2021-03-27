@@ -37,7 +37,7 @@ body {
   padding: 1rem;
 }
 .side-bar > div > li {
-  padding: 0.5rem;
+  padding: 0.5rem , 0.25rem;
   width: fit-content;
   margin-right: 15px;
   margin-bottom: 1rem;
