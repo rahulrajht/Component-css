@@ -46,7 +46,7 @@ function Docs() {
       <section>
         <div className="side-bar">
           <div>
-            <li onClick={() => setScreen(<Installation />)}> Installation </li>
+            <li onClick={() => setScreen(<Installation />)}> Getting Started </li>
           </div>
           <h3> Components</h3>
           <ul>
