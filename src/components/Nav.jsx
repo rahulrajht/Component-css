@@ -48,6 +48,7 @@ function Nav() {
             border="0"
             transform="scale(1)"
             overflow="hidden"
+            frameBorder="0"
             sandbox="allow-scripts allow-same-origin" >
         </Iframe>
       </div>
