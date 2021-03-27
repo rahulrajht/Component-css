@@ -31,7 +31,8 @@
   display: grid;
   width: 100%;
   padding: 2rem;
-  margin-inline-start: 5rem;
+  margin-inline-start: auto;
+  margin-left:5rem;
 }
 .main-ct > .btn-p {
   padding: 0.75rem 1rem;
@@ -111,6 +112,7 @@ footer > nav > ul > a:hover {
   .main-ct {
     display: grid;
     width: 90%;
+    margin-inline-start: auto;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -121,6 +123,6 @@ footer > nav > ul > a:hover {
   .main-ct {
     display: grid;
     width: 90%;
-    margin-left: 3rem;
+    margin-inline-start: auto
   }
 }
