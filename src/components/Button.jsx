@@ -31,6 +31,7 @@ function Button() {
           border="0"
           transform="scale(1)"
           overflow="hidden"
+          frameBorder="0"
         />
       </div>
       <h3>Icon</h3>
@@ -48,6 +49,7 @@ function Button() {
           transform="scale(1)"
           overflow="hidden"
           sandbox="allow-scripts allow-same-origin"
+          frameBorder="0"
         ></Iframe>
       </div>
     </div>
