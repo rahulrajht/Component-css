@@ -20,6 +20,7 @@ function Installation() {
           height="116px"
           transform="scale(1)"
           overflow="hidden"
+          frameBorder="0"
           sandbox="allow-scripts allow-same-origin"
         ></Iframe>
 
@@ -33,6 +34,7 @@ function Installation() {
           height="368px"
           transform="scale(1)"
           overflow="hidden"
+          frameBorder="0"
           sandbox="allow-scripts allow-same-origin"
         ></Iframe>
       </div>
