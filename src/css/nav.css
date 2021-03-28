@@ -1,0 +1,98 @@
+:root {
+  --secondary: #f9aa33;
+  --primary: #344955;
+  --dark: #232f34;
+}
+.nav-container {
+  border: 1px solid gray;
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 80%;
+}
+.navbar {
+  display: flex;
+  background-color: #232f34;
+  height: fit-content;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.label {
+  margin: 0 0px 0 0;
+  line-height: 50px;
+  display: none;
+  width: 26px;
+}
+#toogle {
+  display: none;
+}
+.navbar > .left-item {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar > .left-item > li {
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.navbar > .left-item > li > a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+.navbar > .left-item > li > a:hover {
+  background-color: #fff;
+  color: #232f34;
+}
+.navbar > .right-item {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar > .right-item > li {
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+.navbar > .right-item > li > span {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.navbar > .right-item > li > span:hover {
+  background-color: #fff;
+  color: #232f34;
+}
+
+@media screen and (max-width: 910px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar > .left-item {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar > .right-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #toogle:checked ~ ul {
+    display: none;
+  }
+}

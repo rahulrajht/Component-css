@@ -1,0 +1,20 @@
+:root {
+  --secondary: #f9aa33;
+  --primary: #344955;
+  --dark: #232f34;
+}
+.main-div > .ct > h1 {
+  padding: 0.5rem 1rem;
+  margin-top: 0;
+}
+.main-div > .ct > h4 {
+  margin-left: 1.5rem;
+}
+.main-div > .ct > .para {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+}
+.main-div > .code {
+  padding: 0 1rem;
+  width: 100%;
+}

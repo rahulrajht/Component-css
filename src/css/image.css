@@ -1,0 +1,63 @@
+:root{
+    --secondary:#F9AA33;
+    --primary:#344955;
+    --dark:#232F34;
+}
+
+.images{
+    border: 1px solid gray;
+    background-color:#FFFFFF;
+    padding: 2rem;
+    width: 80%;
+
+}
+/* Square box image */
+.container-L{
+    width: 100%;
+    max-width: 400px;
+    margin: 0.5rem;
+}
+.container-L>.img-L-R{
+    width: 100%;
+    object-fit: contain;
+}
+.container-M{
+    width: 100%;
+    margin: 0.5rem ;
+}
+.container-M>.img-M-R{
+    max-width: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+/* Circle images */
+.container-L-C{
+    max-width: 500px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+.container-L-C>.img-L-R-C{
+    border-radius: 50%;
+    width: 100%;
+    object-fit: contain;
+}
+.container-M-C{
+    border-radius: 50%;
+    width: 300px;
+    margin: 0.5rem ;
+}
+.container-M-C>.img-M-R-C{
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+@media only screen and (max-width:600px){
+    .images{
+        width: 100%;
+    }
+    .cod{
+        width: 100%;
+        
+    }
+}

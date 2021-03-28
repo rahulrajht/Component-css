@@ -1,0 +1,28 @@
+.grid-container {
+  border: 1px solid gray;
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 80%;
+}
+.grid-col-2 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-col-3 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media only screen and (max-width: 600px) {
+  .grid-col-2 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-col-3 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

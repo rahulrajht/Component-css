@@ -1,0 +1,41 @@
+:root{
+    --secondary:#F9AA33;
+    --primary:#344955;
+    --dark:#232F34;
+}
+.modal{
+    border: 1px solid gray;
+    background-color:#FFFFFF;
+    padding: 2rem;
+    width: 80%;
+}
+.modal-container{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: #eceaea;
+    box-shadow: 2px 2px 3px 1px #080808;
+   
+    color: #080808;
+}
+.modal-container>h1{
+    margin: 0;
+    padding: 2rem;
+}
+.modal-container>.md-text{
+    margin: 0;
+    padding-left: 2rem;
+}
+.modal-container>.modal-btns{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin:1rem;
+}
+.modal-container>.modal-btns>.btn-cancel{
+   background-color: #c8ccce;
+   color: #080808;
+}
+.modal-container>.modal-btns>.btn-delete{
+    background-color: rgba(221, 17, 17, 0.938);
+ }

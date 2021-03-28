@@ -1,0 +1,22 @@
+:root{
+    --secondary:#F9AA33;
+    --primary:#344955;
+    --dark:#232F34;
+}
+.text{
+    border: 1px solid gray;
+    background-color:#FFFFFF;
+    padding: 2rem;
+    width: 80%;
+    color: #000000;
+}
+.text>h1,h2,h3,h4,h5,h6{
+    margin: 5px;
+    padding: 0;
+}
+.text>p>.gray-text{
+    color: #808080 ;
+}
+.center-text{
+    text-align: center;
+}

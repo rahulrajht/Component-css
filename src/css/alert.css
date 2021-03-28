@@ -1,0 +1,77 @@
+:root{
+    --secondary:#F9AA33;
+    --primary:#344955;
+    --dark:#232F34;
+}
+.alert{
+    border: 1px solid gray;
+    background-color:#FFFFFF;
+    padding: 2rem;
+    width: 80%;
+}
+.alert>.alert-s{
+    padding: 0.75rem 1rem;
+    border-radius: 5px ;
+    background-color:#90EE90;
+    color: #fff;
+    margin: 0.25rem 0.5rem;
+    width: 80%;
+}
+.alert>.alert-d{
+    padding: 0.75rem 1rem;
+    border-radius: 5px ;
+    background-color:rgb(209, 80, 80);
+    color: #fff;
+    margin: 1rem 0.5rem;
+    width: 80%;
+}
+.alert>.alert-w{
+    padding: 0.75rem 1rem;
+    border-radius: 5px ;
+    background-color: #dbbf1f;
+    color: #fff;
+    margin: 1rem 0.5rem;
+    width: 80%;
+}
+.alert>.alert-i{
+    padding: 0.75rem 1rem;
+    border-radius: 5px ;
+    background-color:  	#12cccfef;
+    color: #fff;
+    margin: 1rem 0.5rem;
+    width: 80%;
+}
+.alert>.alert-p{
+    padding: 0.75rem 1rem;
+    border-radius: 5px ;
+    background-color: var(--primary);
+    color: #fff;
+    margin: 1rem 0.5rem;
+    width: 80%;
+}
+
+.main-div>.code{
+    padding: 1rem 0;
+    width: 80%;
+    
+} 
+.code>p{
+    color:#fff;
+}
+.code>p>.white{
+    color: #fff;
+}
+.code>p>span{
+    color: rgb(52, 52, 160);
+}
+.code>p>.red{
+    color: rgba(231, 17, 17, 0.87);
+}
+@media only screen and (max-width:600px){
+    .alert{
+        width: 100%;
+    }
+    .main-div>.cod{
+        width: 100%;
+    }
+}
