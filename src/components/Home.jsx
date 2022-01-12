@@ -7,7 +7,7 @@ function Home() {
       <div className="main-ct">
         <h1 className="title"> Flick CSS </h1>
         <p className="para1">
-          Flick CSS is a component Libray to build your projects easily. Now you
+          Flick CSS is a component library to build your projects easily. Now you
           don't need to focus too much on design things. Just copy the code and
           use it in your projects so that you can build your projects without
           mugging up how to align items in center{" "}
